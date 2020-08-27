@@ -5,9 +5,14 @@ public Class DemoClass{
             qualify();
         }
     }
-
+    
     private void qualify(){
-        isExecuted = True;
+         isExecuted = True;
+        todoitems();
+    }
+    
+    private void todoItems(){
+        System.debug('todo');   
     }
 
 }

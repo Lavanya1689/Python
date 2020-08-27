@@ -5,7 +5,7 @@ public class DemoClassTest{
         
         Test.startTest();
         System.runAs(contextuser){
-            
+            Account a = new Account(test);
         }
         Test.stopTest();
         
