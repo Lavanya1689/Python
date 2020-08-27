@@ -7,7 +7,7 @@ public Class DemoClass{
     }
     
     private void qualify(){
-        isExecuted = True;
+         isExecuted = True;
         todoitems();
     }
     
